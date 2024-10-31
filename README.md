@@ -1,6 +1,6 @@
 # Software Engenering Course Project
-- Group Project for VMI CIS research topics class class
-- Proposed Idea: Protecting our soldiars in high stress situations useing LLMs to aid in the decision makeing procsess useing real time and stored information 
+- Group Project for VMI CIS Software Engenering class
+- Proposed Idea: A website to create profesional personal portfolios that are able to be downloaded and used for work purpose
 # Group Members 
 1. Trenton Watkins: Team Leader, Senior Developer, AI developer, Indendured Servent to Dr. Azab
 2. Hayden Rose: Research servant (all hail king tmfw), Senior Developer, Little swimmer boy
