@@ -7,6 +7,33 @@
         <link href="FeStyle.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        
+        <h1>
+            Info Entrey Page
+        </h1>
+        <p>enter information in the following text boxes</p>
+        <div>
+            <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" ></p>
+        </div>
+        <div>
+            <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (plese enter a Phone Number or Email)</p>
+        </div>
+        <div>
+            <p><label for="Work Experiance"> Work Experiance: </label> <input type = "text" id = "WorkExp" name = "WORKEXP" ></p>
+        </div>
+        <p> choice the  Style option you would like</p>
+        <div>
+            <p>
+                <label for = "Style Option">Style Options:</label>
+                <p> Option 1: Option 2: Option 3:</p>
+                <div class="dropdown">
+                    <button class="dropbtn">Style Option</button>
+                    <div class="dropdown-content">
+                        <a href="1">Option 1</a>
+                        <a href="2">Option 2</a>
+                        <a href="3">Option 3</a>
+                    </div>
+                </div>
+            </p>
+        </div>
     </body>
 </html>
