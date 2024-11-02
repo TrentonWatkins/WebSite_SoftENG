@@ -8,29 +8,37 @@
     </head>
     <body>
         <h1>
-            Info Entrey Page
+            Papa Dobbs Protfolio and Resume
         </h1>
         <p>enter information in the following text boxes</p>
-        <div>
-            <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" ></p>
+        <div class = "Headshot">
+                <p><label for="Work Experiance"> Profession Headshot: </label> <input type = "file" id = "Headshot" name = "HEADSHOT" ></p>
+            </div>
+        <div class = "name">
+            <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" > (First ,MI, Last)</p>
         </div>
-        <div>
-            <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (plese enter a Phone Number or Email)</p>
+        <div class = "Contact">
+            <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (Plese enter a Phone Number or Email)</p>
         </div>
-        <div>
+        <div class = "Bio">
+            <p><label for="Work Experiance"> Short Bio about yourself: </label> <input type = "text" id = "Bio" name = "BIO" ></p>
+        </div>
+        <div class = "WE">
             <p><label for="Work Experiance"> Work Experiance: </label> <input type = "text" id = "WorkExp" name = "WORKEXP" ></p>
         </div>
-        <p> choice the  Style option you would like</p>
+
+        
+        <p> What style option you would like for your PAPA DOBBS PORTFOLIO</p>
         <div>
             <p>
                 <label for = "Style Option">Style Options:</label>
                 <p> Option 1: Option 2: Option 3:</p>
                 <div class="dropdown">
-                    <button class="dropbtn">Style Option</button>
+                    <select class="dropbtn">Style Option</select>
                     <div class="dropdown-content">
-                        <a href="1">Option 1</a>
-                        <a href="2">Option 2</a>
-                        <a href="3">Option 3</a>
+                        <p> Option 1: <button>O</button><p>
+                        <p> Option 2: <button>O</button><p>
+                        <p> Option 3<button>O</button><p>
                     </div>
                 </div>
             </p>
