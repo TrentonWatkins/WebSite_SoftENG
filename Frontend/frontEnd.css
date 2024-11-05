@@ -1,9 +1,23 @@
+body {
+  background-image: url("/Frontend/res/wallpapersden.com_moon-space-minimal_1920x1080.jpg");
+  font-family: monospace;
+}
+
 #main-container {
   width: 50%;
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: aqua;
+}
+
+#top, #content-wrapper, #submit {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+#credits {
+  color: white;
 }
 
 label {
