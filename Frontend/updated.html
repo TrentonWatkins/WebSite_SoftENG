@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontEnd.css">
     <title>Papa Dobbs Portfolios</title>
 </head>
 <body>
@@ -14,30 +15,36 @@
         </div>
 
         <div id="content-wrapper">
-            <p>enter information in the following text boxes</p>
+            <p>enter information in the following areas:</p>
+            
             <div class = "Headshot">
-                    <p><label for="Work Experience"> Profession Headshot: </label> <input type = "file" id = "Headshot" name = "HEADSHOT" ></p>
+                    <p><label for="Work Experience"> Professional Headshot:</label><br> <input type = "file" id = "Headshot" name = "HEADSHOT" ></p>
                 </div>
             <div class = "name">
-                <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" > (First ,MI, Last)</p>
+                <p><label for=" Name">Name:</label> <br>(First ,MI, Last)<br><input type = "text" id = "Name" name = "NAME" > </p>
             </div>
             <div class = "Contact">
-                <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (Please enter a Phone Number or Email)</p>
+                <p><label for=" Contact">Contact <br></label>(Please enter a Phone Number or Email) <br><input type = "text" id = "Contact" name = "CONTACT" > </p>
             </div>
             <div class = "Bio">
-                <p><label for="bio"> Short Bio about yourself: </label> <textarea name="bio" id="bio"></textarea> </p>
+                <p><label for="bio"> Short Bio about yourself: </label> <br><textarea name="bio" id="bio"></textarea> </p>
             </div>
             <div class = "EDU">
-                <p><label for="edu"> Education: <textarea name="edu" id="edu"></textarea></p>
+                <p><label for="edu"> Education:</label><br><textarea name="edu" id="edu"></textarea></p>
             </div>      
             <div class = "WE">
-                <p><label for="bio"> Work Experience: <textarea name="bio" id="bio"></textarea></p>
+                <p><label for="bio"> Work Experience:</label><br><textarea name="bio" id="bio"></textarea></p>
             </div>            
         </div>
 
 
         <div id="styleSelector">
-
+            <label for="styles">Choose a style:</label>
+                <select name="styles" id="styles">     
+                    <option value="rigatoni">Modern</option>
+                    <option value="dave">Simple</option>
+                    <option value="pumpernickel">Colorful</option>
+                </select>
         </div>
 
         <div id="submit">
