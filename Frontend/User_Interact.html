@@ -7,41 +7,54 @@
         <link href="FeStyle.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>
+        <h1 style="text-align: center; border: 5px solid lightgrey;">
             Papa Dobbs Protfolio and Resume
         </h1>
-        <p>enter information in the following text boxes</p>
-        <div class = "Headshot">
-                <p><label for="Work Experiance"> Profession Headshot: </label> <input type = "file" id = "Headshot" name = "HEADSHOT" ></p>
-            </div>
-        <div class = "name">
-            <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" > (First ,MI, Last)</p>
-        </div>
-        <div class = "Contact">
-            <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (Plese enter a Phone Number or Email)</p>
-        </div>
-        <div class = "Bio">
-            <p><label for="Work Experiance"> Short Bio about yourself: </label> <input type = "text" id = "Bio" name = "BIO" ></p>
-        </div>
-        <div class = "WE">
-            <p><label for="Work Experiance"> Work Experiance: </label> <input type = "text" id = "WorkExp" name = "WORKEXP" ></p>
-        </div>
-
-        
-        <p> What style option you would like for your PAPA DOBBS PORTFOLIO</p>
         <div>
-            <p>
-                <label for = "Style Option">Style Options:</label>
-                <p> Option 1: Option 2: Option 3:</p>
-                <div class="dropdown">
-                    <select class="dropbtn">Style Option</select>
-                    <div class="dropdown-content">
-                        <p> Option 1: <button>O</button><p>
-                        <p> Option 2: <button>O</button><p>
-                        <p> Option 3<button>O</button><p>
-                    </div>
+            <form style="margin: 0 auto; width:250px;">
+                <p>Enter information in the following boxes</p>
+                <!-- <div class = "Headshot">
+                        <p><label for="Work Experiance"> Profession Headshot: </label> <input type = "file" id = "Headshot" name = "HEADSHOT" ></p>
+                    </div> -->
+                Profession Headshot: 
+                <input type = "file" id = "Headshot" name = "HEADSHOT" > <br><br>
+                <!-- <div class = "name">
+                    <p><label for=" Name">Name: </label> <input type = "text" id = "Name" name = "NAME" > (First ,MI, Last)</p>
+                </div> -->
+                Name: 
+                <input type = "text" id = "Name" name = "NAME" > (First ,MI, Last) <br><br>
+                <!-- <div class = "Contact">
+                    <p><label for=" Contact">Contact: </label> <input type = "text" id = "Contact" name = "CONTACT" > (Plese enter a Phone Number or Email)</p>
+                </div> -->
+                Contact: 
+                <input type = "text" id = "Contact" name = "CONTACT" > (Plese enter a Phone Number or Email) <br><br>
+                <!-- <div class = "Bio">
+                    <p><label for="Work Experiance"> Short Bio about yourself: </label> <input type = "text" id = "Bio" name = "BIO" ></p>
+                </div> -->
+                Write a short bio about yourself: <br>
+                <textarea name="Bio" id="Bio" cols="30" rows="5"></textarea>
+                <!-- <div class = "WE">
+                    <p><label for="Work Experiance"> Work Experiance: </label> <input type = "text" id = "WorkExp" name = "WORKEXP" ></p>
+                </div> -->
+                Work Experience: <br>
+                <textarea name="WorkExp" id="WorkExp" cols="30" rows="5"></textarea>
+                
+                <p> What style option you would like for your PAPA DOBBS PORTFOLIO</p>
+                <div>
+                    <p>
+                        <label for = "Style Option">Style Options:</label>
+                        <p> Option 1: Option 2: Option 3:</p>
+                        <div class="dropdown">
+                            <select class="dropbtn">Style Option</select>
+                            <div class="dropdown-content">
+                                <p> Option 1: <button>O</button><p>
+                                <p> Option 2: <button>O</button><p>
+                                <p> Option 3<button>O</button><p>
+                            </div>
+                        </div>
+                    </p>
                 </div>
-            </p>
-        </div>
+            </div>
+        </form>
     </body>
 </html>
