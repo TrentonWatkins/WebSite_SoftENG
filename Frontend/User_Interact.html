@@ -6,6 +6,7 @@
         <title>Personal Protfolio</title>
         <link href="FeStyle.css" rel="stylesheet" type="text/css" />
     </head>
+
     <body>
         <h1 style="text-align: center; border: 5px solid lightgrey;">
             Papa Dobbs Protfolio and Resume
@@ -52,16 +53,33 @@
                         </div>
                     </div>
                 </p> -->
-                <label for="Style Options">Choose a car:</label>
+                <label for="Style Options">Choose a Style:</label>
                 <br>
                 <select name="Styles" id="Styles">
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
+                    <option value="StyleOP1.css">Option 1</option>
+                    <option value="StyleOP2.css">Option 2</option>
+                    <option value="StyleOP3.css">Option 3</option>
                 </select>
                 <br><br><br>
-                <input type="submit" value="Submit">
-             </form>
-       </div>
+                <button type = 'Submit'><a href="Github\WebSite_SoftENG\Backend\Resume.html"></a>Submit</button>
+            </form>
+        </div>
+        <script>
+        document.getElementById('save').addEventListener('click', () => {
+        const photo = document.getElementById('Headshot').value;
+        const name = document.getElementById('Name').value;
+        const contact = document.getElementById('Contact').value;
+        const Bio = document.getElementById('Bio').value;
+        const Experiance = document.getElementById('WorkExp').value;
+        const style = document.getElementById('Style').value;
+          // Save to localStorage
+        localStorage.setItem('name', name);
+        localStorage.setItem('')
+    
+          // Navigate to Page 2
+        window.location.href = 'BackendResume.html';
+        });
+        </script>
     </body>
 </html>
+<!--  HR: https://www.w3schools.com/tags/ : used as tag reminders for HTML programming -->
